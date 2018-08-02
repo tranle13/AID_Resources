@@ -24,12 +24,11 @@
         app:layout_constraintGuide_percent="0.25" />
 
     <ScrollView
-        android:layout_width="427dp"
-        android:layout_height="295dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline2"
@@ -47,14 +46,16 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/section_1"
                 android:textColor="@color/sectionColor"
-                android:textSize="20sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/content_1" />
+                android:layout_marginTop="8dp"
+                android:text="@string/content_1"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -64,14 +65,16 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/section_2"
                 android:textColor="@color/sectionColor"
-                android:textSize="20sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/content_2" />
+                android:layout_marginTop="8dp"
+                android:text="@string/content_2"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -81,14 +84,17 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/section_3"
                 android:textColor="@color/sectionColor"
-                android:textSize="20sp"
+                android:textSize="23sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/content_3" />
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/content_3"
+                android:textSize="17sp" />
         </LinearLayout>
     </ScrollView>
 
