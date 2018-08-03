@@ -1,3 +1,8 @@
+
+    // Name: Tran Le
+    // AID - 1808
+    // File Name: MainActivity.java
+
 package com.sunny.android.letran_ce02;
 
 import android.content.res.Configuration;
