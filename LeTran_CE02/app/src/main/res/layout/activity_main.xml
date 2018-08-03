@@ -31,9 +31,8 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,11 +47,12 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
                 android:text="@string/section_1"
                 android:textColor="@color/sectionColor"
-                android:textSize="23sp"
-                android:textStyle="bold|italic"
+                android:textSize="25sp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="135dp" />
 
@@ -69,11 +69,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-smallcaps"
+                android:fontFamily="sans-serif"
                 android:text="@string/section_2"
                 android:textColor="@color/sectionColor"
-                android:textSize="23sp"
-                android:textStyle="bold|italic" />
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -88,11 +88,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-smallcaps"
+                android:fontFamily="sans-serif"
                 android:text="@string/section_3"
                 android:textColor="@color/sectionColor"
-                android:textSize="23sp"
-                android:textStyle="bold|italic" />
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
